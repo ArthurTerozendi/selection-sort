@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SelectionSort:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SelectionSort_jar</output-path>
+    <root id="archive" name="SelectionSort.jar">
+      <element id="module-output" name="SelectionSort" />
+    </root>
+  </artifact>
+</component>
