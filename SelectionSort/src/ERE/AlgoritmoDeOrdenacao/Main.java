@@ -6,17 +6,22 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Leitura leitura = new Leitura();
+        Bench bench = new Bench();
+
         float cotacao[] = leitura.lerCotacao();
-        PrintArray(cotacao);
-        SelectionSort(cotacao);
-        PrintArray(cotacao);
+        //PrintArray(cotacao);
+        bench.CreateBench("cotação SelectionSort", () -> SelectionSort(cotacao));
+        //PrintArray(cotacao);
 
 
         String nomes[] = leitura.lerNomes();
-        PrintArray(nomes);
-        SelectionSort(nomes);
-        PrintArray(nomes);
+        //PrintArray(nomes);
+        bench.SetBenchConfig(4000, 2, 3, 1);
+        bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
+        //PrintArray(nomes);
     }
+
+
 
     /**
      * Utilizando o algoritmo SelectionSort, a cadeia é ordenada de forma alfabetica
