@@ -11,6 +11,12 @@ public class Leitura {
 
     }
 
+    /**
+     * Lê o arquivo das cotações
+     * retornando uma array de float
+     * @return
+     * @throws IOException
+     */
     public float[] lerCotacao() throws IOException {
         path = new File("cotacaoEMBR3.csv");
         FileReader lerArquivo = new FileReader(path);
@@ -20,6 +26,7 @@ public class Leitura {
         int i = -1;
         while (bLerArquivo.ready()){
             String linha;
+            //Pula a primeira linha do arquivo
             if (i == -1) {
                 linha = bLerArquivo.readLine();
             } else {
@@ -33,12 +40,27 @@ public class Leitura {
         return cotacoes;
     }
 
+    /**
+     * Método que separa uma linha
+     * Retornando um item especifico dessa linha
+     * @param linha
+     * @param coluna
+     * @param separador
+     * @return
+     */
     private String separarLinha(String linha, int coluna, String separador) {
 
         String linhaSeparada[] = linha.split(separador);
         linha = linhaSeparada[coluna];
         return linha;
     }
+
+    /**
+     * Lê o arquivo dos nomes
+     * retorna uma array de string
+     * @return
+     * @throws IOException
+     */
     public String[] lerNomes() throws IOException {
         path = new File("nomes-caracteres.csv");
         FileReader lerArquivo = new FileReader(path);
@@ -48,6 +70,7 @@ public class Leitura {
         int i = -1;
         while (bLerArquivo.ready()){
             String linha;
+            //Pula a primeira linha do arquivo
             if (i == -1) {
                 linha = bLerArquivo.readLine();
             } else {

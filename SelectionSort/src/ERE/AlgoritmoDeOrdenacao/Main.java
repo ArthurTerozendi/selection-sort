@@ -6,19 +6,25 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Leitura leitura = new Leitura();
+        Escrever escrever = new Escrever();
         Bench bench = new Bench();
 
         float cotacao[] = leitura.lerCotacao();
         //PrintArray(cotacao);
-        bench.CreateBench("cotação SelectionSort", () -> SelectionSort(cotacao));
-        //PrintArray(cotacao);
+        //bench.CreateBench("cotação SelectionSort", () -> SelectionSort(cotacao));
+
+        SelectionSort(cotacao);
+
+        PrintArray(cotacao);
 
 
-        String nomes[] = leitura.lerNomes();
+        //String nomes[] = leitura.lerNomes();
         //PrintArray(nomes);
-        bench.SetBenchConfig(4000, 2, 3, 1);
-        bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
+        //bench.SetBenchConfig(4000, 2, 3, 1);
+        //bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
         //PrintArray(nomes);
+
+        escrever.escrever("cotacaoEMBR3.csv", cotacao);
     }
 
 
