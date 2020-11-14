@@ -11,17 +11,17 @@ public class Main {
 
         float cotacao[] = leitura.lerCotacao();
         //PrintArray(cotacao);
-        //bench.CreateBench("cotação SelectionSort", () -> SelectionSort(cotacao));
+        bench.CreateBench("cotação SelectionSort", () -> SelectionSort(cotacao));
 
         SelectionSort(cotacao);
 
         PrintArray(cotacao);
 
 
-        //String nomes[] = leitura.lerNomes();
+        String nomes[] = leitura.lerNomes();
         //PrintArray(nomes);
-        //bench.SetBenchConfig(4000, 2, 3, 1);
-        //bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
+        bench.SetBenchConfig(4000, 2, 3, 1);
+        bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
         //PrintArray(nomes);
 
         escrever.escrever("cotacaoEMBR3.csv", cotacao);

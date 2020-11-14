@@ -7,12 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f43380-be04-42b9-bec6-6ac7575e3e78" name="Default Changelist" comment="Começando a trabalhar com o arquivo csv">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Bench.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Bench.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Leitura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="187">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="-5">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Escrever.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="92" column="87" selection-start-line="92" selection-start-column="87" selection-end-line="92" selection-end-column="87" />
+            <state relative-caret-position="709">
+              <caret line="105" column="55" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,10 +95,10 @@
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Ordenacao.java" />
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/leitura.java" />
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Bench.java" />
-        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" />
         <option value="$PROJECT_DIR$/cotacaoEMBR3.csv" />
-        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" />
         <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Escrever.java" />
+        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" />
+        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" />
       </list>
     </option>
   </component>
@@ -311,13 +305,6 @@
     <entry file="file://$PROJECT_DIR$/nomes-caracteres.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cotacaoOrdenada.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40391" />
@@ -330,16 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cotacaoOrdenada.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40639">
@@ -349,11 +326,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Escrever.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="92" column="87" selection-start-line="92" selection-start-column="87" selection-end-line="92" selection-end-column="87" />
+        <state relative-caret-position="709">
+          <caret line="105" column="55" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
