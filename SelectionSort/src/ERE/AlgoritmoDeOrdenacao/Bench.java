@@ -35,7 +35,7 @@ public class Bench{
             if (benchRun) {
                 average = average + throughput;
             }
-            System.out.print(String.format("%.4f", throughput) + " ops/s" + (!benchRun ? " (warmup) | " : " | "));
+            System.out.println(String.format("%.4f", throughput) + " ops/s" + (!benchRun ? " (warmup) | " : " | "));
         }
         average = average / repeat;
         System.out.println("\n[ ~" + average + " ops/s ]\n");
