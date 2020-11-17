@@ -39,10 +39,12 @@ public class Leitura {
         linha = linhaSeparada[coluna];
         return linha;
     }
+
     public String[] lerNomes() throws IOException {
-        path = new File("nomes-caracteres.csv");
+        path = new File("nomes.csv");
         FileReader lerArquivo = new FileReader(path);
         BufferedReader bLerArquivo = new BufferedReader(lerArquivo);
+
         String nomes[] = new String[100787];
 
         int i = -1;
@@ -51,8 +53,7 @@ public class Leitura {
             if (i == -1) {
                 linha = bLerArquivo.readLine();
             } else {
-                linha = bLerArquivo.readLine();
-                nomes[i] = separarLinha(linha, 2, ",");
+                nomes[i] = bLerArquivo.readLine();
             }
             i++;
         }

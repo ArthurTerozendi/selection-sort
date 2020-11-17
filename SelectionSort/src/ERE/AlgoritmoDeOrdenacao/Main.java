@@ -11,12 +11,12 @@ public class Main {
         Bench bench = new Bench();
 
         float cotacao[] = leitura.lerCotacao();
-        PrintArray(cotacao);
-        /*
-        * Eu uso cotacao clone, pois no primeiro bench já pode organizar a array, e passar a ser um caso
-        * distindo do caso inicial. Ex: Era pra ser um average, mas no primeiro bench ele ja ordena,
-        * entao nos testes subsequentes será outro caso.
-        * */
+        //PrintArray(cotacao);
+        /**
+         * Eu uso cotacao clone, pois no primeiro bench já pode organizar a array, e passar a ser um caso
+         * distindo do caso inicial. Ex: Era pra ser um average, mas no primeiro bench ele ja ordena,
+         * entao nos testes subsequentes será outro caso.
+         */
 
         //Caso medio, vou considerar que seja uma array bagunçada
         bench.CreateBench("cotação SelectionSort | Average Case", () -> SelectionSort(cotacao.clone()));
@@ -29,14 +29,14 @@ public class Main {
         Reverse(cotacao);
         bench.CreateBench("cotação SelectionSort | Worst Case", () -> SelectionSort(cotacao.clone()));
 
-        PrintArray(cotacao);
+        //PrintArray(cotacao);
 
 
         String nomes[] = leitura.lerNomes();
-        //PrintArray(nomes);
-        //bench.SetBenchConfig(4000, 2, 3, 1);
-        //bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
-        //PrintArray(nomes);
+        PrintArray(nomes);
+        bench.SetBenchConfig(4000, 2, 3, 1);
+        bench.CreateBench("nomes SelectionSort", () -> SelectionSort(nomes));
+        PrintArray(nomes);
     }
 
     /**

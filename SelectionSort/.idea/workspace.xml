@@ -32,12 +32,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f43380-be04-42b9-bec6-6ac7575e3e78" name="Default Changelist" comment="Começando a trabalhar com o arquivo csv">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cotacoes.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nomes-caracteres.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nomes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nomes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Bench.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Bench.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Leitura.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectionSort/ERE/AlgoritmoDeOrdenacao/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Bench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Bench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,17 +57,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="-15">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Bench.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="646">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cotacaoEMBR3.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="2378" column="39" lean-forward="true" selection-start-line="2378" selection-start-column="39" selection-end-line="2732" selection-end-column="35" />
+            <state relative-caret-position="40426">
+              <caret line="2378" column="39" selection-start-line="2378" selection-start-column="39" selection-end-line="2732" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -95,6 +113,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java" />
+        <option value="$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1811" />
+    <option name="y" value="-11" />
+    <option name="width" value="697" />
+    <option name="height" value="674" />
+  </component>
   <component name="ProjectId" id="1k6bpohGBtLIfwZ7jYlKeUa58Q8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -104,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -194,10 +226,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1618541" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +238,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5711044" visible="true" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5711044" weight="0.18657938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,6 +354,42 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SelectionSort$Main.ic" NAME="Main Coverage Results" MODIFIED="1604845461762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Leitura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cotacaoEMBR3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40426">
+          <caret line="2378" column="39" selection-start-line="2378" selection-start-column="39" selection-end-line="2732" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ERE/AlgoritmoDeOrdenacao/Bench.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
